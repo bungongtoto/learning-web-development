@@ -1,0 +1,57 @@
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+form {
+    width: 100%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+   
+  }
+  div{
+    padding: 10px;
+    background-color: #aaa6ac;
+    box-shadow: -8px -5px 5px #868585, 0 5px 5px#868585 ;
+  }
+
+body{
+  padding: 10px 30px 10px 30px;
+  background-color: #e1dcdc;
+}
+
+h1 , p{
+  text-align: center;
+}
+p{
+  padding-bottom: 20px;
+}
+
+.inline{
+   vertical-align: middle;
+   width: unset;
+   margin: 0 0.5em 0 0 ;
+}
+
+fieldset{
+  padding: 8px;
+  border: none;
+}
+
+input, textarea, select{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+   background-color:#ebeaea;
+}
+
+input[type="submit"]{
+  background-color:#f7bd23;
+  font-size: 1.1rem;
+  border-color:white;
+  box-shadow: 3px 3px red;
+  width: 60%;
+  display: block;
+  margin: auto;
+
+}

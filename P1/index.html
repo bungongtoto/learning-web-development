@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">TOTO SURVEY ON KITCHEN GAS</h1>
+    <p id="description">Thank you for taking the time to help us know how we can help in home delivery of kitchen gas.</p>
+    <div>
+      <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name: <input required type="text" id="name" name="name" placeholder="Enter your name"></label>
+        <label id="email-label">Email: <input required type="email" id="email" name="email" placeholder="Enter your email"></label>
+        <label id="number-label">Age(optional): <input type="number" id="number" name="number" max="99" min="10" placeholder="Enter your age"></label>
+        </fieldset>
+        <fieldset>
+        <label for="dropdown">Which kitchen gas brand do you use? <select id="dropdown" name="dropdown">
+          <option value="">Choose one</option>
+          <option value="1">Tradex</option>
+          <option value="2">OLA</option>
+          <option value="3">NC</option>
+          </select></label>
+      </fieldset>
+      <fieldset>
+        <label>How Often do you command kitchen gas?</label>
+        <label for="one-month"><input type="radio" id="one-month" name="command-interval" value="one-month" class="inline" /> After one month</label>
+      <label for="two-month"><input type="radio" id="two-month" name="command-interval" value="two-month" class="inline" /> After two months</label>
+      <lable for="three-month"><input type="radio" id="three-month" name="command-interval" value="three-month" class="inline" /> After three months</label>
+      </fieldset>
+      <fieldset>
+        <label> What do you recemend to us?</label>
+        <label for="speed"><input type="checkbox"id="speed" value="Speed" name="speed" class="inline" /> increase delivery speed</label>
+        <label for="fee"><input type="checkbox" id="fee" name="fee" value="Fee" class="inline" /> reduce delivery fee</label>
+        <label for="hours"><input type="checkbox" name="hours" id="hours" value="Hours" class="inline" /> add delivery hours</label>
+        <label for="contact"><input type="checkbox" id="contact" name="contact" value="Contact" class="inline" /> start calling clients through direct line</label>
+        <label for="null"><input type="checkbox" id="null" name="null" value="Null" class="inline" /> Nothing</label>
+      </fieldset>
+      <fieldset>
+        <label for="thoughts">What do you think about TOTO?
+          <textarea id="thoughts" name="thoughts" rows="5" cols="40" placeholder="I appreciate the services provided by TOTO"></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit">
+      </form>
+    </div>
+    
+  </body>
+</html>
