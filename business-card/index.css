@@ -1,0 +1,22 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my-img{
+    width: 150px;
+    /* border-radius: 50%; */
+}
+
+.wrapper{
+    /* border: 2px dotted blue; */
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+}
