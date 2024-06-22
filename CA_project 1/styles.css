@@ -230,9 +230,9 @@ h1{
 
 .third-section{
     position: absolute;
-    border: 1px solid #2b2839;
     margin: 100px auto;
     align-items: center;
+    text-align: center;
     left: 40%;
 }
 .my-img{
@@ -241,6 +241,7 @@ h1{
 }
 
 .wrapper{
+    border: 1px solid #2b2839;
     width: 400px;
     margin: 0 auto;
     padding: 20px;
